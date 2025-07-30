@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Documentación Técnica - OBS Studio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <nav id="navbar">
+    <header>Guía OBS Studio</header>
+    <a class="nav-link" href="#Introducción">Introducción</a>
+    <a class="nav-link" href="#Instalación">Instalación</a>
+    <a class="nav-link" href="#Configuración_Básica">Configuración Básica</a>
+    <a class="nav-link" href="#Escenas_y_Fuentes">Escenas y Fuentes</a>
+    <a class="nav-link" href="#Transmisión_y_Grabación">Transmisión y Grabación</a>
+  </nav>
+
+  <main id="main-doc">
+    <section class="main-section" id="Introducción">
+      <header>Introducción</header>
+      <p>OBS Studio es un software gratuito y de código abierto para grabación y transmisión en vivo.</p>
+      <p>Permite capturar múltiples fuentes de video, mezclarlas en tiempo real y enviarlas a plataformas como Twitch, YouTube y Facebook Live.</p>
+      <p>Es ampliamente utilizado por creadores de contenido, streamers y docentes.</p>
+      <code>OBS Studio = Grabación + Transmisión + Escenas</code>
+      <ul>
+        <li>Gratis y Open Source</li>
+        <li>Compatible con Windows, Mac y Linux</li>
+        <li>Alta personalización</li>
+      </ul>
+      <div class="img-placeholder">
+        <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1905180/capsule_616x353.jpg?t=1733595297" alt="Imagen relacionada" />
+      </div>
+    </section>
+
+    <section class="main-section" id="Instalación">
+      <header>Instalación</header>
+      <p>Para instalar OBS Studio, visitá el sitio oficial <a href="https://obsproject.com" target="_blank">obsproject.com</a>.</p>
+      <p>Seleccioná tu sistema operativo y descargá el instalador correspondiente.</p>
+      <p>Seguí los pasos del asistente de instalación.</p>
+      <code>sudo apt install obs-studio</code>
+      <code>brew install --cask obs</code>
+      <ul>
+        <li>Descargar el archivo desde el sitio oficial</li>
+        <li>Ejecutar el instalador</li>
+        <li>Aceptar los permisos</li>
+      </ul>
+      <div class="img-placeholder">
+        <img src="https://hotmart.com/media/2020/01/como-usar-o-obs-instalar-o-obs-2.png" alt="Imagen relacionada" />
+      </div>
+    </section>
+
+    <section class="main-section" id="Configuración_Básica">
+      <header>Configuración Básica</header>
+      <p>Al iniciar OBS por primera vez, podés usar el asistente automático.</p>
+      <p>Elegí si vas a transmitir o solo grabar.</p>
+      <p>Configurá resolución, FPS y el bitrate.</p>
+      <code>Configuración > Salida > Bitrate: 2500</code>
+      <code>Configuración > Video > Resolución Base: 1920x1080</code>
+      <ul>
+        <li>Configurá el micrófono y la cámara</li>
+        <li>Ajustá la carpeta de grabaciones</li>
+        <li>Revisá que el audio se esté capturando</li>
+      </ul>
+      <div class="img-placeholder">
+        <img src="https://i0.wp.com/educazonia.com/wp-content/uploads/2020/11/asistente-de-configuraci%C3%B3n-de-OBS.jpg?resize=502%2C392" alt="Imagen relacionada" />
+      </div>
+      
+    </section>
+
+    <section class="main-section" id="Escenas_y_Fuentes">
+      <header>Escenas y Fuentes</header>
+      <p>Las escenas contienen una o más fuentes: cámara, pantalla, imágenes, etc.</p>
+      <p>Podés crear múltiples escenas para diferentes situaciones.</p>
+      <p>Las fuentes se agregan desde el panel inferior.</p>
+      <code>Click en "+" en Fuentes > Captura de pantalla</code>
+      <code>Click en "+" en Fuentes > Dispositivo de video</code>
+      <ul>
+        <li>Cámara web</li>
+        <li>Captura de juego</li>
+        <li>Texto o imágenes</li>
+      </ul>
+      <div class="img-placeholder">
+        <img src="https://aulasoftwarelibre.github.io/taller-de-obs-docs/images/escenas_y_fuentes.png" alt="Imagen relacionada" />
+      </div>
+      
+    </section>
+
+    <section class="main-section" id="Transmisión_y_Grabación">
+      <header>Transmisión y Grabación</header>
+      <p>Para transmitir, necesitás conectar OBS a tu cuenta de Twitch, YouTube, etc.</p>
+      <p>Para grabar, solo necesitás elegir la carpeta de destino y presionar "Iniciar grabación".</p>
+      <p>Ambas opciones están disponibles en el panel de control inferior derecho.</p>
+      <code>Configuración > Transmisión > Servicio: Twitch</code>
+      <code>Click en "Iniciar grabación"</code>
+      <ul>
+        <li>Grabación en MP4 o MKV</li>
+        <li>Streaming en tiempo real</li>
+        <li>Control total del audio y video</li>
+      </ul>
+      <div class="img-placeholder">
+        <img src="https://es.digitaltrends.com/wp-content/uploads/2020/09/created-with-gimp-84.jpg?fit=720%2C480&p=1" />
+      </div>
+      
+    </section>
+  </main>
+</body>
+</html>
